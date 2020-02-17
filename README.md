@@ -1,8 +1,8 @@
 # UX portfolio template 1920
 
-## Name:
+## Name: Joren Goessens
 
-## Group:
+## Group: 1AVDb
 
 ## Getting Started
 
