@@ -93,50 +93,35 @@ const data = {
             }
         ]
     },
+     /**
+  * Assignment 3
+  */
 
-    /**
-     * Assignment 4
-     */
+"assignment3": {
+    "buttons": [
+        {
+            "text": "Researchdocument",
+            "title": "Mijn PDF met research",
+            "href": "./assignments/assignment3/documents/a3-research.pdf",
+            "target": "_blank"
+        },
+        {
+            "text": "Adobe XD (met Wireframes)",
+            "title": "Mijn Adobe XD document met de wireframes van mijn applicatie",
+            "href": "./assignments/assignment3/documents/a3-wireframes.xd",
+        },
+        {
+            "text": "Adobe XD (met Visual Designs)",
+            "title": "Mijn Adobe XD document voor de visual designs van mijn applicatie",
+            "href": "./assignments/assignment3/documents/a3-visual-designs.xd",
+        },
+        {
+            "text": "Website",
+            "title": "Mijn website voor opdracht 3",
+            "href": "./assignments/assignment3/website/index.html",
+            "target": "_blank"
+        }
+    ]
+},
 
-    "assignment4": {
-        "buttons": [
-            {
-                "text": "Analyse",
-                "title": "Mijn PDF met een analyse van de gemaakte fouten",
-                "href": "./assignments/assignment4/documents/a4-analysis.pdf",
-                "target": "_blank"
-            },
-            {
-                "text": "Adobe XD (Desktop)",
-                "title": "Mijn Adobe XD document voor de Desktop versie van de applicatie",
-                "href": "./assignments/assignment4/documents/a4-visual-designs-desktop.xd",
-            },
-            {
-                "text": "Adobe XD (Mobile)",
-                "title": "Mijn Adobe XD document voor de Mobile versie van de applicatie",
-                "href": "./assignments/assignment4/documents/a4-visual-designs-mobile.xd",
-            },
-            {
-                "text": "Website",
-                "title": "Mijn website voor opdracht 4",
-                "href": "./assignments/assignment4/website/index.html",
-                "target": "_blank"
-            }
-        ]
-    },
-
-    /**
-     * Assignment 5
-     */
-
-    "assignment5": {
-        "buttons": [
-            {
-                "text": "Website",
-                "title": "Mijn website voor opdracht 5",
-                "href": "./assignments/assignment5/website/index.html",
-                "target": "_blank"
-            }
-        ]
-    }
 }
