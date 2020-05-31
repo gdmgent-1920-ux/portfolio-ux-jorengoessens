@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onze Webshop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+		const toggleNavigationIcon = (x) => {
+			const navLinks = document.querySelector('.nav-links');
+			navLinks.classList.toggle('toggled');
+			x.classList.toggle('toggled');
+		}
+	</script>
+</head>
+
+<body>
+
+    <nav>
+		<div class="header container-fluid">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-8 col-md-4 logo">
+                        <a href="index.html" title="home"><img src="images/logo_ok.png" alt="Logo GreenPools"></a>
+                    </div>
+					<div class="col-4 col-md-8">
+						<div class="row justify-content-end align-items-center">
+							<div class="nav-links">
+								<ul>
+									<li>
+										<a href="product.html" title="Zwembaden">Zwembaden</a>
+									</li>
+									<li>
+										<a href="product.html" title="Zwmvijvers">Zwemvijvers</a>
+									</li>
+									<li>
+										<a href="product.html" title="Eerdere realisaties">Projecten</a>
+									</li>
+									<li>
+										<a href="product.html" title="Webshop">Webshop</a>
+                                    </li>
+                                    <li>
+										<a href="#" title="Contact">Contact</a>
+									</li>
+								</ul>
+							</div>
+							<div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+    <header id="banner3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-4 col-md-12">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-12 col-md-11">
+                    <h1>Webshop Zwemkommen</h1>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="container" id="filter-knoppen">
+        <div class="row">
+            <div class="col-12">
+                <div class="row align-items-center">
+                    <div class="col-2 col-sm-2 col-md-2">
+                        <a href="#" class="filter">Kleur</a>
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-2">
+                        <a href="#" class="filter">Type</a>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4" id="sort-button">
+                        <a href="#" class="filter">Sorteren op</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container" id="filter-knoppen">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-1 col-sm-1">
+                <a href="#" class="filter">Kleur</a>
+            </div>
+            <div class="col-1 col-sm-1">
+                <a href="#" class="filter">Type</a>
+            </div>
+            <div class="col-4 col-sm-3" id="sort-button">
+                <a href="#" class="filter">Sorteren op</a>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container" id="zwemkommen">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-4" id="vlak1">
+                <a href="productdetail.html"><img src="images/producten/smal.png" alt="smal 4x5m"></a>
+                <h2>Smal 4x5m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €2999</a>
+
+            </div>
+            <div class="col-6 col-sm-4 col-md-4">
+                <a href="productdetail.html"><img src="images/producten/smal-plus.png" alt="smal-plus 4,5x5,5m"></a>
+                <h2>Smal plus 4,5x5,5m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €3199</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4" id="vlak1">
+                <a href="productdetail.html"><img src="images/producten/medium.png" alt="Medium 5x7m"></a>
+                <h2>Medium 5x7m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €4999</a>
+
+            </div>
+            <div class="col-6 col-sm-4 col-md-4">
+                <a href="productdetail.html"><img src="images/producten/medium-plus.png" alt="Medium plus 5x7,5m"></a>
+                <h2>Medium plus 5x7,5m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €5199</a>
+
+            </div>
+            <div class="col-6 col-sm-4 col-md-4" id="vlak1">
+                <a href="productdetail.html"><img src="images/producten/kingsized.png" alt="Kingsized 5x8m"></a>
+                <h2>Kingsized 5x8m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €6999</a>
+
+            </div>
+            <div class="col-6 col-sm-4 col-md-4">
+                <a href="productdetail.html"><img src="images/producten/kingsized-plus.png" alt="Kingsized plus 5x8,5m"></a>
+                <h2>Kingsized plus 5x8,5m</h2>
+                <a href="#" class="link">Opties beschikbaar</a>
+                <br>
+                <a href="#" class="button">Vanaf €7199</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="plus">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-2 col-md-2">
+                <a href="#">
+                    <img src="images/add.svg" alt="plus teken">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-5">
+                    <p>1AVDb - opdracht 3 UX</p>
+                </div>
+                <div class="col-4">
+                    <p>Joren Goessens</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

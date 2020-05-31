@@ -1,0 +1,472 @@
+/* my main css file */
+
+/* navigatie opmaak */
+ul {
+    padding: 0;
+  }
+  /**
+   * Header
+   */
+  
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-orange);
+  }
+  #plus img{
+      width: 50%;
+  }
+  #plus{
+      margin-bottom: 100px;
+      margin-top: 50px;
+  }
+  /**
+   * Navigation
+   */
+  
+  
+  .logo img{
+      width: 80px;
+      height: 70px;
+      /* object-fit: cover; */
+  }
+  
+  nav ul {
+    width: 100%;
+    list-style-type: none; 
+  }
+  
+  nav ul li {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li a{
+      text-decoration: none;
+      color: var(--color-lightblue);
+      font-weight: bold;
+  }
+  .nav-links {
+    display: none;
+
+  }
+  .nav-links.toggled {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    margin-top: 80px;
+  }
+body{
+    font-family: var(--text-font);
+}
+
+h1{
+    font-size: 20pt;
+
+} 
+h2{
+    font-size: 11pt;
+}
+h3{
+    font-size: 10pt;
+    font-weight: lighter;
+}
+p{
+    font-size: 8pt;
+}
+img{
+    width: 100%;
+}
+.button{
+    background-color: var(--color-darkblue);
+    text-decoration: none;
+    color: white;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 8pt;
+    transition: all ease-in-out 400ms;
+}
+.button:hover{
+    background-color: var(--color-lightblue);
+}
+.link{
+    font-size: 7pt;
+    color: var(--color-lightblue);
+    font-weight: bolder;
+    display: block;
+    margin-bottom: -13px;
+}
+
+
+/* opmaak banner */
+#banner1 .container-fluid{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+#banner3 .container-fluid{
+    background-image: url(../images/webshop-banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+#banner1 .container-fluid  h1, #banner3 .container-fluid  h1{
+    text-align: center;
+}
+#banner1 .container-fluid  p, #banner3 .container-fluid  p{
+    font-size: 8pt;
+}
+#banner1 .container-fluid  a, #banner3 .container-fluid  a{
+    text-decoration: none;
+}
+#banner1 .container-fluid  .row, #banner3 .container-fluid  .row{ 
+    height: 10vh;
+
+}
+/* einde opmaak banners */
+
+
+/* opmaak footer */
+footer .container-fluid .row{
+    height: 70px;
+    background-color: var(--color-darkblue);
+    height:  70px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+/* einde opmaak footer */
+
+/* einde opmaak header */
+
+
+/* opmaak slider */
+#slider{
+    margin-top: 50px;
+}
+#slider img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#slider .row{
+    overflow: hidden;
+}
+#slider .col-4{
+    height: 12.19vh;
+}
+
+/* einde opmaak slider */
+
+
+/* opmaak info blok 1 en blok 2*/
+#info1, #info2{
+    margin-top: 50px;
+    line-height: 0;
+    padding-left: 0;
+}
+#info1 h2, #info1 p, #info2 h2, #info2 p{
+    line-height: 10pt;
+}
+#info1 img, #info2 img{
+    width: 50vw;
+    height: 185px;
+    object-fit: cover;
+    line-height: 0;
+}
+.foto-div{
+    line-height: 0;
+}
+/*  opmaak info blok 1 */
+
+
+/* opmaak banner 2 */
+#banner2{
+    height: 25vh;
+    background-image: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+/* einde opmaak banner 2 */
+
+
+
+
+/* ------------------------------ opmaak productdetail pagina  ------------------------------*/
+
+/* opmaak product */
+#productdetailbanner{
+    height: 25vh;
+    background-image: url(../images/productdetail/maldives-details2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 8px #999999;
+
+}
+
+/* opmaak info product */
+#prijs span{
+    font-size: 8pt;
+    font-weight: lighter;
+}
+#prijs{
+    color: var(--color-darkblue);
+    font-weight: bold;
+}
+#product #hoofd-foto{
+    margin-top: 20px;
+    padding: 0;
+}
+#hoofd-foto{
+    margin-bottom: 20px;
+}
+#stars{
+    margin-top: 20px;
+}
+#stars img{
+    width: 5%;
+}
+.link1, #link2{
+    font-size: 7pt;
+    color: black;
+    transition: all ease-in-out 400ms;
+}
+#link2:hover{
+    color: var(--color-darkblue);
+}
+.link1:hover{
+    color: var(--color-darkblue);
+}
+#info-zwembad{
+    margin-top: 40px;
+}
+#info-zwembad h2{
+    color: var(--color-darkblue);
+}
+/* einde opmaak info product */
+
+/* ------------------------------ opmaak product pagina  ------------------------------*/
+
+ /* opmaak filter knoppen */
+#filter-knoppen{
+    margin-top: 20px;
+}
+.filter{
+    color: white;
+    background-color: var(--color-darkblue);
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 8pt;
+    border-radius: 19px;
+    transition: all ease-in-out 400ms;
+}
+.filter:hover{
+    background-color: var(--color-lightblue);
+}
+/* einde opmaak filter knoppen */
+
+/* opmaak zwemkommen */
+
+#zwemkommen img{
+    border: 1px solid grey;
+    border-radius: 19px;
+}
+#zwemkommen{
+    margin-top: 50px;
+    
+}
+#zwemkommen .col-sm-4{
+    margin-bottom: 50px;
+}
+
+/* einde opmaak zwemkommen */
+
+
+/* ------------------------------ einde opmaak product pagina  ------------------------------*/
+
+
+
+
+
+@media all and (min-width: 768px){
+    
+    h1{
+        font-size: 50pt;
+    }
+    h2{
+      font-size: 14pt;  
+    }
+    h3{
+        font-size: 13pt;
+    }
+    p{
+        font-size: 11pt;
+        line-height: 25px;
+    }
+    .button{
+        font-size: 12pt;
+    }
+    footer .container-fluid .row{
+        margin-top: 0;
+    }
+    /* ------------------------------ opmaak homepagina desktop  ------------------------------*/
+    #slider{
+        margin-bottom: 100px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    #slider .col-4{
+        height: 30vh;
+        /* background-color: indigo; */
+    }
+    #info1 img, #info2 img{
+        height: 50vh;
+    }  
+    #info1, #info2{
+        margin: 0;
+    }
+    #info2 .row{
+        flex-direction: row-reverse;
+    }
+    #info1 h2, #info1 p, #info2 h2, #info2 p{
+        line-height: 25pt;
+        margin-left: 30px;
+    }
+    #zwemkommen h2{
+        height: 50px;
+    }
+    #banner1 .container-fluid  .row, #banner3 .container-fluid  .row{
+        height: 20vh;
+    
+    }
+    /* ------------------------------ einde opmaak homepagina desktop  ------------------------------*/
+    
+    /* ------------------------------ opmaak product pagina  ------------------------------*/
+    /* opmaak banners */
+    #filter-knoppen{
+        margin-top: 50px;
+    }
+    #banner2{
+        height: 50vh;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        background-attachment: fixed;
+    }
+    .filter{
+        font-size: 12pt;
+        padding: 5px 20px;
+    }
+
+    .prijs-button{
+        margin-top: 30px;
+    }
+    .link{
+        margin-bottom: 2px;
+    }
+    /* ------------------------------ einde opmaak product pagina  ------------------------------*/
+
+    /* ------------------------------ opmaak productdetail pagina  ------------------------------*/
+    #product #hoofd-foto{
+        padding: 15px;
+    }
+    #info-zwembad{
+        margin-bottom: 100px;
+    }
+    #titels{
+        margin-top: -200px;
+    }
+    #hoofd-foto{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-links {
+      display: block;
+    }
+    nav ul {
+      display:flex;
+    }
+    nav ul a {
+      margin-right: 20px;
+      padding-right: 20px;
+    }
+    nav ul li {
+      margin-bottom: 0;
+    }
+    nav ul li:last-of-type a {
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+  }
+  
+  /**
+   * Navigation Toggle
+   */
+  
+  .nav-toggler {
+    display: inline-block;
+    cursor: pointer;
+  }
+  @media (min-width: 567px) and (max-width: 768){
+    .filter{
+        padding: 90px;
+        margin: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    .nav-toggler {
+      display: none;
+    }
+  }
+  
+  .nav-toggler .bar1,
+  .nav-toggler .bar2,
+  .nav-toggler .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-darkblue);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .toggled .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .toggled .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .toggled .bar3{
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+
+  @media (max-width: 576px){
+
+  
+  .logo img{
+      width: 55px;
+      height: 45px;
+      
+  }
+}
